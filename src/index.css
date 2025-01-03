@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #111111;
+  color: white;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #00C2FF, #7B42FF, #FF00C7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.App > div {
+  background: rgba(30, 30, 30, 0.95);
+  border-radius: 1.5rem;
+  padding: 2rem;
+  max-width: 26rem;
+  width: 100%;
+  margin-top: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.wallet-adapter-button {
+  background: linear-gradient(90deg, #00C2FF, #7B42FF) !important;
+  border-radius: 2rem !important;
+  padding: 0.8rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  cursor: pointer !important;
+  width: auto !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.wallet-adapter-button-trigger {
+  background: linear-gradient(90deg, #00C2FF, #7B42FF) !important;
+}
+
+button {
+ 
+  border-radius: 2rem !important;
+  padding: 0.8rem 2rem !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  border: none !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  margin-top: 1rem !important;
+}
+
+.wallet-adapter-button.disconnect-button {
+  background: #FF4141 !important;
+  margin-left: 1rem !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: #1e1e1e !important;
+  border-radius: 1rem !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background: #333 !important;
+}
+
+.wallet-adapter-modal-title {
+  color: white !important;
+}
+
+p {
+  color: #888;
+  text-align: center;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+/* Wallet bağlantı durumu için container */
+.wallet-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Mint NFT butonu için özel stil */
+.mint-button {
+ background: linear-gradient(90deg, #00C2FF, #7B42FF, #FF00C7) !important;
+  margin-top: 2rem !important;
+} 

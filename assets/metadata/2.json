@@ -1,0 +1,38 @@
+{
+  "name": "TechCow AI #2",
+  "description": "A cyberpunk highland cow living in the digital realm. Part of the TechCow AI Collection.",
+  "image": "ipfs://QmTt6hnxsdRzRgKuLiAenhF4HihS7Ju7tE3a7yo3JqEBTM",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple Cyberpunk City"
+    },
+    {
+      "trait_type": "Body Style",
+      "value": "Highland Fur"
+    },
+    {
+      "trait_type": "AI Features",
+      "value": "Street Lights"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Friendly"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "ipfs://QmTt6hnxsdRzRgKuLiAenhF4HihS7Ju7tE3a7yo3JqEBTM",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "9ZXjAUsWuXoBHkaAYWkYyPN1DNu6cxcRwWffHsxmtEXk",
+        "share": 100
+      }
+    ]
+  }
+}

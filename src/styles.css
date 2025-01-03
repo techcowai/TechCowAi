@@ -1,0 +1,115 @@
+.mint-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.wallet-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mint-button {
+    background: linear-gradient(90deg, #00C2FF, #7B42FF, #FF00C7) !important;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.disconnect-button {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.mint-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.mint-section {
+    margin-top: 20px;
+}
+
+.mint-result {
+    margin-top: 20px;
+}
+
+.mint-result a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.mint-result a:hover {
+    text-decoration: underline;
+}
+
+.faucet-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+.faucet-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.faucet-button:hover {
+    background-color: #1976D2;
+}
+
+.faucet-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.faucet-info {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.faucet-info ol {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.faucet-info li {
+    margin: 5px 0;
+}
+
+.faucet-info code {
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.faucet-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.faucet-info a:hover {
+    text-decoration: underline;
+} 
